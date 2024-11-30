@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-
 document.querySelector("#contactForm").addEventListener("submit", async (e) => {
   e.preventDefault();
 
@@ -28,7 +27,7 @@ document.querySelector("#contactForm").addEventListener("submit", async (e) => {
 
   try {
     const response = await fetch(
-      "https://your-backend-service.onrender.com/api/contact",
+      "https://portfolio-backend1-xjpu.onrender.com/api/contact", // Updated URL
       {
         method: "POST",
         headers: {
