@@ -418,6 +418,8 @@ section {
 
 .services .title a:hover {
   color: #149ddd;
+  cursor: default;
+  
 }
 
 .services .description {
