@@ -263,6 +263,15 @@ h6 {
   background-size: cover;
 }
 
+
+@media (max-width: 768px) {
+  #hero {
+    min-height: 100vh; /* Maintain full viewport height */
+    background-size: cover; /* Keep the image properly scaled */
+    
+  }
+}
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
